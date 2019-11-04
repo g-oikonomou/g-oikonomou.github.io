@@ -1,0 +1,35 @@
+/******************************************************************************/
+/******************************************************************************/
+/* portfolio tinkering */
+/* add on-palm to be consistent with other jekyll theme media queries */
+@media screen and (min-width: 32em) { html { font-size: 16px; }
+  h1, .h1 { font-size: 2.998rem; }
+  .site-header { text-align: left; }
+  .site-nav { margin-top: 0; }
+  .site-header a { font-size: 1rem; }
+  .site-header .site-title { font-size: 1.25rem; float: left; }
+  .site-header .site-nav { float: right; }
+  blockquote { margin-left: 2rem; padding: 2rem; }
+  .social-icons-left { text-align: left; }
+  .social-icons-right { text-align: right; }
+  .img_row { height: 91.6666666667px; }
+  .col { padding: 1.6666666667px; } }
+@media screen and (min-width: 48em) { html { font-size: 18px; }
+  .img_row { height: 183.3333333333px; }
+  .col { padding: 3.3333333333px; } }
+@media screen and (min-width: 64em) { html { font-size: 20px; }
+  .img_row { height: 275px; }
+  .col { padding: 5px; } }
+@media screen and (min-width: 78em) { em img { max-width: 56rem; margin-left: -7em; } }
+footer { text-align: center; }
+
+.site-nav label[for="nav-trigger"] { display: none; }
+@media screen and (max-width: 600px) { .site-nav label[for="nav-trigger"] { margin-bottom: 0px; } }
+
+ol.bibliography { font-size: small; list-style-type: none; }
+
+ol.bibliography > li:before { content: "[" counter(bibitem) "]"; position: absolute; left: -3em; }
+
+ol.bibliography > li { counter-increment: bibitem -1; }
+
+ol.bibliography > li > span.spd-bib-row { display: inline; }
