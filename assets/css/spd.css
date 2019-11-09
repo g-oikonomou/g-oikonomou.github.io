@@ -28,8 +28,14 @@ footer { text-align: center; }
 
 ol.bibliography { font-size: small; list-style-type: none; }
 
+ol.bibliography.no-margins { margin-top: 0px; margin-bottom: 0px; }
+
 ol.bibliography > li:before { content: "[" counter(bibitem) "]"; position: absolute; left: -3em; }
+
+ol.bibliography > li.without-before-element:before { content: none; }
 
 ol.bibliography > li { counter-increment: bibitem -1; }
 
 ol.bibliography > li > span.spd-bib-row { display: inline; }
+
+.spd-pub-group { border-bottom: 1px solid #ccc; color: #ccc; margin: 0px -1em 0px -1em; padding-top: 1ex; text-align: left; font-size: 30px; line-height: 1; }
