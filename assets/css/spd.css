@@ -36,6 +36,10 @@ ol.bibliography > li.without-before-element:before { content: none; }
 
 ol.bibliography > li { counter-increment: bibitem -1; }
 
-ol.bibliography > li > span.spd-bib-row { display: inline; }
+ol.bibliography > li > div > div.spd-bib-row { display: inline; }
 
 .spd-pub-group { border-bottom: 1px solid #ccc; color: #ccc; margin: 0px -1em 0px -1em; padding-top: 1ex; text-align: left; font-size: 30px; line-height: 1; }
+
+ol.bibliography > li > div > div.spd-bibentry-detail { margin-top: 10pt; border-top-style: solid; border-bottom-style: solid; border-left-style: none; border-right-style: none; border-width: thin; font-size: small; display: none; line-height: normal; }
+
+ol.bibliography > li > div > div.spd-bibentry-bibtex { font-family: monospace; white-space: pre-wrap; }
