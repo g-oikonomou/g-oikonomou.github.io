@@ -43,3 +43,5 @@ ol.bibliography > li > div > div.spd-bib-row { display: inline; }
 ol.bibliography > li > div > div.spd-bibentry-detail { margin-top: 10pt; border-top-style: solid; border-bottom-style: solid; border-left-style: none; border-right-style: none; border-width: thin; font-size: small; display: none; line-height: normal; }
 
 ol.bibliography > li > div > div.spd-bibentry-bibtex { font-family: monospace; white-space: pre-wrap; }
+
+.btn-group-sm > .btn, .btn-sm { padding: 0rem .5rem; font-size: .875rem; line-height: 1.5; border-radius: .2rem; }
