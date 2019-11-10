@@ -45,3 +45,7 @@ ol.bibliography > li > div > div.spd-bibentry-detail { margin-top: 10pt; border-
 ol.bibliography > li > div > div.spd-bibentry-bibtex { font-family: monospace; white-space: pre-wrap; }
 
 .btn-group-sm > .btn, .btn-sm { padding: 0rem .5rem; font-size: .875rem; line-height: 1.5; border-radius: .2rem; }
+
+div.btn-group > a.btn-outline-secondary.disabled { color: #cccccc; }
+
+div.btn-group > a.btn-outline-secondary { color: #6c757d; }
