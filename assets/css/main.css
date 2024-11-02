@@ -897,7 +897,7 @@ body {
   line-height: 1.5;
 }
 .site-nav .al-folio-page-link:not(:first-child) {
-  margin-left: 10px;
+  margin-left: 4px;
 }
 @media screen and (max-width: 600px) {
   .site-nav {
